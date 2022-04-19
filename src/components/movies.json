@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "title": "Bell Bottom",
+        "actor":"Akshay Kumar",
+        "image":"https://i.ytimg.com/vi/MJuFdpVCcsY/movieposter_en.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Sherash",
+        "actor":"Kiera",
+        "image":"https://i.ytimg.com/vi/aPrXjzst6Ew/movieposter_en.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Sultan",
+        "actor":"Salman Khan",
+        "image":"https://lumiere-a.akamaihd.net/v1/images/p_artemisfowl_19732_ece7d5ad.jpeg?region=0%2C0%2C540%2C810"
+    },
+    {
+        "id": 4,
+        "title": "Thappad",
+        "actor":"Tapasee Pannu",
+        "image":"https://lumiere-a.akamaihd.net/v1/images/p_shangchiandthelegendofthetenringshomeentupdate_22055_7b62fa67.jpeg?region=0%2C0%2C540%2C800"
+    },
+    {
+        "id": 5,
+        "title": "Bell",
+        "actor":"Vaani",
+        "image":"https://qqcdnpictest.mxplay.com/pic/484f535d77542bca63e21efb896f4cd6/en/2x3/320x480/test_pic1638541013780.webp"
+    }
+    
+]
