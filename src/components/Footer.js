@@ -5,28 +5,32 @@ import Button from "react-bootstrap/Button";
 
 function Footer() {
     return (
-      <div style={{background:"black", color:"white", padding:"3%"}}>
-          <Container>
-            <Row>
-                <Col xs={3}>
-                    Col 1
+      <div style={{background:"#504b4b", color:"white", height: "25rem"}}>
+          <Container fluid>
+            <Row style={{background:"#444343", padding:"2% 4%"}}>
+                <Col xs={2}>
+                    List your show
                 </Col>
-                <Col xs={7}>
-                    Col 2
+                <Col xs={8}>
+                    Got a show, event, activity or a great experience? Partner with us and get listed on BookMyShow
                 </Col>
                 <Col xs={2}>
-                    <Button style={{background:"rgb(236, 94, 113)", border:"0"}}>Contact today</Button>
+                    <Button style={{background:"rgb(236, 94, 113)", border:"0", display:"flex", flexDirection:"row-reverse", width:"130px"}}>Contact today</Button>
                 </Col>
             </Row>
-            <Row style={{textAlign:"center", padding:"3%"}}>
+            <Row style={{textAlign:"center", paddingTop:"3%"}}>
                 <Col>
-                    Col 1
+                    <a  href="#"><img style={{marginBottom:"1rem", height:"60px"}} src="./customer_care.png" alt=""/></a>
+                    <p>24/7 CUSTOMER CARE</p>
+
                 </Col>
                 <Col>
-                    Col 2
+                    <a  href="#"><img style={{marginBottom:"1rem", height:"60px"}} src="./booking_confirmation.png" alt=""/></a>
+                    <p>RESEND BOOKING CONFIRMATION</p>
                 </Col>
                 <Col>
-                    Col 3
+                    <a  href="#"><img style={{marginBottom:"1rem", height:"60px"}} src="./newsletter.png" alt=""/></a>
+                    <p>SUBSCRIBE TO THE NEWSLETTER</p>
                 </Col> 
             </Row>
           </Container>
