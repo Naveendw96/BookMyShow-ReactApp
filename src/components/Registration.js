@@ -24,7 +24,7 @@ function Registration() {
             "email": emailaddress,
             "password": passwordd
         }
-        const response = await axios.post('http://localhost:5000/user-register', userDetails)
+        const response = await axios.post('https://bms-backend-shapeai.herokuapp.com/user-register', userDetails)
         .then((data)=> {
             Swal.fire({
                 title: `<strong>${data.data.message}</strong>`,
