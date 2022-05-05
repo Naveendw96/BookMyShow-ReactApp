@@ -51,7 +51,6 @@ function Registration() {
                 <Form.Group className="mb-3" >
                     <Form.Label>User Name</Form.Label>
                     <Form.Control value={username} onChange={(e) => setUsername(e.target.value)} placeholder="Enter username" />
-
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
